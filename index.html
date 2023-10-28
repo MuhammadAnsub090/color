@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color </title>
+    <style>
+             
+      .div-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+      } 
+      
+
+      button {
+        border-radius: 7px;
+        padding: 5px;
+        margin: 10px;
+        width: 5%;
+        cursor: pointer;
+        color: black;
+        
+      }
+      button:active {
+        color: black;
+      }
+      button:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        
+      }
+      
+
+
+    </style>
+  </head>
+  <body>
+    
+
+    <div id=" button">
+        <button  onclick="button('red')">RED</button>
+        <button  onclick="button('orange')">Orange</button>
+        <button  onclick="button('purple')">purple</button>
+        <button  onclick="button('green')">Green</button>
+        <button  onclick="button('blue')">Blue</button>
+        <button  onclick="button('grey')">grey</button>
+        <button  onclick="button('pink')">pink</button>
+    
+    </div>
+    
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
